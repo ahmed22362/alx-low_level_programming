@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	// declare varibles 
+	/*declare varibles*/ 
 	char l_alpha;
 	char u_alpha;
 
