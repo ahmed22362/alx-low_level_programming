@@ -1,8 +1,12 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/*Main: start point 
+ * generate random number n 
+ * check what n is
+ * return 0 : always true*/
 int main(void)
 {
 	int n;
@@ -14,3 +18,4 @@ int main(void)
 	else printf("is negative");
 	return (0);
 }
+
