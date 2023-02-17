@@ -6,12 +6,13 @@
 /* betty style doc for function main goes there */
 /**
 * main - Entry poing
-* return: Always 0 true
+* Return: Always 0
 */
 int main(void)
 {
 	int n;
 	int ld_n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	ld_n = n % 10;
