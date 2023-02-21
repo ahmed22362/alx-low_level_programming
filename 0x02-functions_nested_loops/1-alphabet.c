@@ -12,10 +12,10 @@ void print_alphabet(void)
 {
 	int a = 97;
 
-	while (i < 123)
+	while (a < 123)
 	{
-		_putchar(i);
-		i++;
+		_putchar(a);
+		a++;
 	}
 	_putchar('\n');
 }
