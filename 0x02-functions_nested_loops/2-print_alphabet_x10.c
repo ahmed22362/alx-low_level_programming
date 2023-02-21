@@ -3,7 +3,7 @@
  * print_alphabet_x10 - the wanted function
  *
  * Description: print the alphabet 10 times
- * 
+ *
  * Return: void
  */
 void print_alphabet_x10(void)
