@@ -2,24 +2,25 @@
 /**
  * print_to_98 - print the nubers from n to 98
  *
+ * @n: the start number to print from
+ *
  * Return: void
  */
 void print_to_98(int n)
 {
-	int i;
-
-	for (i = n; i <= 98; i++)
+	if (n > 98)
 	{
-		if (i <= 9)
+	for (; n > 98; n--)
 		{
-			_putchar(i + 48);
+		printf("%d, ", n);
 		}
-		else
-		{
-			_putchar((i % 10) + 48);
-			_putchar((i / 10) + 48);
-		}
-		_putchar(44);
-		_putchar(32);
 	}
+	else if (n < 98)
+	{
+		for (; n < 98; n++)
+		{
+		printf("%d, ", n);
+		}
+	}
+	printf("%d\n", n);
 }
