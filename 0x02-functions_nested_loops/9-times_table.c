@@ -12,8 +12,6 @@ void times_table(void)
 	{
 		for (b = 0; b <= 9; b++)
 		{
-			_putchar(44);
-			_putchar(32);
 			c = a * b;
 			if (c <= 9)
 			{
@@ -25,6 +23,9 @@ void times_table(void)
 				_putchar((c / 10) + 48);
 				_putchar((c % 10) + 48);
 			}
+			_putchar(44);
+			_putchar(32);
 		}
+		_putchar('\n');
 	}
 }
