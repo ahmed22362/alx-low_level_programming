@@ -11,9 +11,12 @@
 int main(void)
 {
 	char m[10] = "_putchar";
-	for (int i = 0; i < 8; i++)
+	int i = 0;
+
+	while ( i < 8 )
 	{
 		_putchar(m[i]);
+		i++;
 	}
 	_putchar('\n');
 	return (0);
