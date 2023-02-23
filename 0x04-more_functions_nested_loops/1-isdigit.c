@@ -3,12 +3,12 @@
 /**
 * _isdigit - function to check the given input is digit or not
 * 
-*@n: the input number
+*@c: the input number
 *
 *Return : 1 if n is digit otherwise
 */
 
-int _isdigit(int n)
+int _isdigit(int c)
 {
 	if ((c >= 48) && (c < = 57))
 	{
