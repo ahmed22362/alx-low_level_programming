@@ -1,6 +1,12 @@
 #include "main.h"
 
 /**
+ * _puts_recursion - function declaration
+ * @s: the string
+ */
+void _puts_recursion(char *s);
+
+/**
  * _puts_recursion - function definition
  * @s: thr string to recurse
  * Description: recurses through a string s
