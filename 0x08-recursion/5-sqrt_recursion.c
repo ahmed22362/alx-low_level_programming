@@ -1,4 +1,8 @@
-* @my_num: the number
+#include "main.h"
+
+/**
+ * my_sqrt - function declaration
+ * @my_num: the number
  * @my_root: the root
  * Return: square root or -1
  */
