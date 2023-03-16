@@ -6,13 +6,26 @@
  * @argv: array that contains the program command line arguments.
  * Return: 0 - success.
  */
+
 int main(int argc, char *argv[])
 {
-	if (argc != 3)
+	int i, j, sum = 0;
+
+	for (i = 1; i < argc; i++)
 	{
-		printf("Error\n");
-		return (1);
+		for (j = 0; argv[i][j] != '\0'; j++)
+		{
+			if (argv[i][j] < '0' || argv[i][j] > '9')
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
+
+		sum += atoi(argv[i]);
 	}
-	printf("%d\n", atoi(argv[1]) + atoi(argv[2]));
+
+	printf("%d\n", sum);
+
 	return (0);
 }
