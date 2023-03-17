@@ -7,6 +7,7 @@
 *@s2: pointer to the second string
 *@n: numbers of added characer from s2
 *
+* Return: the concatinating string
 */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
